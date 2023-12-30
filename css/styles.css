@@ -12,15 +12,15 @@ img{
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
-  border-bottom: 1px solid #e7e9fc;
   display: flex;
 }
+
+
 
 .accent-first {
   color: #2e2f42;
   align-items: center;
-  display: flex;
-  justify-content: c;
+
 }
 
 .accent-second {
@@ -37,9 +37,12 @@ img{
   color: #4d5ae5;
   cursor: auto;
   text-decoration: none;
-  display: flex;
-  padding: 24px;
- 
+display: flex;
+    padding: 24px;
+}
+
+.logo_div {
+    margin-top: 76px;
 }
 
 .hero-container {
@@ -88,10 +91,7 @@ img{
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  display: flex;
-  flex-grow: 1;
-  justify-content: space-between;
-  align-items: center;
+  
 }
 
 .list-scnd {
@@ -103,9 +103,23 @@ img{
   line-height: 24px;
   letter-spacing: 0.32px;
   list-style-type: none;
-  display: flex;
-  gap: 40px;
-  padding: 24px;
+display: flex;
+    gap: 40px;
+    padding: 24px;
+}
+
+.list-scnd-div{
+    display: flex;
+        gap: 40px;
+        margin-right: 40px 40px 0;
+}
+.header-link-item-first-div{
+    padding: 24px 0;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .contacts {
@@ -119,8 +133,11 @@ img{
 
 .list-contacts {
   display: flex;
-  gap: 40px;
-  padding: 24px;
+}
+
+.list-contacts-li{
+    gap: 40px;
+    margin-top: 40px;
 }
 /*------------ --------------*/
 .middle-part {
