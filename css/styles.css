@@ -249,7 +249,10 @@ border-radius: 0px 0px 4px 4px;
 }
 
 .list-frd:first-child{
-    width: calc((100% - 3 * 24px) / 4);
+    flex: 1;
+        margin: 0 12px;
+        /* Adjust margin as needed */
+        max-width: calc((100% - 3 * 12px) / 4);
 }
 
 .fsiv{
