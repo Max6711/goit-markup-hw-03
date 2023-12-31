@@ -251,8 +251,8 @@ list-style-type: none;
 border-radius: 0px 0px 4px 4px;
 }
 
-.list-frd{
-    flex-basis: calc((100% - 72px) / 4);
+.list-frd {
+    width: calc((100% - 72px) / 4);
 }
 
 .fsiv{
