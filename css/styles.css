@@ -180,7 +180,7 @@ gap: 24px;
 margin-right: 24px;
 }
 
-.middle_li:first-child {
+middle_li{
     width: calc((100% - 72px) / 4);
 }
 .text-scnd {
