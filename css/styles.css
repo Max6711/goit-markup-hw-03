@@ -172,9 +172,10 @@ gap: 24px;
 margin-right: 24px;
 }
 
-.middle_li{
-    flex-basis: calc((100% - 72px) / 4);
+middle_li{
+width: calc((100% - 72px) / 4);
 }
+
 .text-scnd {
     color: #2E2F42;
     font-family: 'Roboto', sans-serif;
@@ -235,13 +236,11 @@ margin-right: 24px;
     margin-right: 23px;
 }
 
-.calc_fr{
-    width: calc((100% - 72px) / 4);
-}
-
 .list-frd{
 border-radius: 0px 0px 4px 4px;
+ width: calc((100% - 72px) / 4);
 }
+
 
 .fsiv{
     padding: 32px 0;
