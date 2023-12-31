@@ -16,6 +16,7 @@ body {
          max-width: 1158px;
          padding: 0 15px;
          margin: 0 auto;
+         
 }
 
 .logo {
@@ -33,11 +34,13 @@ body {
 
 .header{
 border-bottom: 1px solid #e7e9fc;
+
 }
 
 .header-container{
     display: flex;
 }
+
 img{
     display: block;
 }
@@ -122,7 +125,6 @@ img{
 .middle-part {
     background-color: #2E2F42;
     padding: 188px 0;
-
 }
 
 .text-fr {
@@ -154,7 +156,6 @@ img{
 /*--------------------------- --------------------------*/
 
 
-
 .visually-hidden{
         position: absolute;
         width: 1px;
@@ -178,9 +179,11 @@ img{
 display: flex;
 gap: 24px;
 margin-right: 24px;
+list-style-type: none;
+
 }
 
-.middle_li:first-child{
+.middle_li{
     width: calc((100% - 72px) / 4);
 }
 .text-scnd {
@@ -241,6 +244,7 @@ margin-right: 24px;
     display: flex;
     gap: 24px;
     margin-right: 23px;
+    list-style-type: none;
 }
 
 .list-frd{
@@ -293,12 +297,16 @@ border-radius: 0px 0px 4px 4px;
 
 
 }
-
+ul{
+    padding: 0;
+    margin: 0;
+}
 .thrd_ul{
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    list-style-type: none;
 }
 
 thrd_li{
