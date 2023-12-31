@@ -12,6 +12,14 @@ body {
     color: #f4f4fd;
 }
 
+.container { 
+         max-width: 1158px;
+         padding-left: 0 15px ;
+         padding-right: 0 15px;
+         margin-left: 0 auto ;
+         margin-right: 0 auto ;
+}
+
 .logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -24,6 +32,9 @@ body {
     text-decoration: none;
 }
 
+img{
+    display: block;
+}
 
 .header-item {
     font-weight: 500;
@@ -230,4 +241,13 @@ body {
     line-height: 24px;
     letter-spacing: 0.32px;
 
+}
+
+paragraph{
+    width: 264px;
+}
+
+.container-footer{
+margin-bottom: 16px;
+display: inline-block;
 }
