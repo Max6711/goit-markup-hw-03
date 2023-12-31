@@ -54,7 +54,7 @@ img{
 .header-link-item-first :focus {
     color: #404bbf;
 }
-.header-link-item-first{
+.li_header_div{
     padding: 24px 0;
 }
 .header-itemsc {
