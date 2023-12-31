@@ -48,15 +48,14 @@ img{
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-decoration: none;
+    padding: 24px 0;
 }
 
 .header-link-item-first:hover a,
 .header-link-item-first :focus {
     color: #404bbf;
 }
-.li_header_div{
-    padding: 24px 0;
-}
+
 .header-itemsc {
     font-weight: normal;
     font-size: 16px;
