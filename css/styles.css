@@ -229,6 +229,7 @@ img{
 
 .last-part {
     background: #2E2F42;
+    padding: 100px 0;
 }
 
 .text-nn {
@@ -243,7 +244,7 @@ img{
 
 }
 
-paragraph{
+.paragraph{
     width: 264px;
 }
 
@@ -251,3 +252,4 @@ paragraph{
 margin-bottom: 16px;
 display: inline-block;
 }
+
