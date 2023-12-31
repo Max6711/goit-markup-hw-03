@@ -127,12 +127,16 @@ img{
 
 /*--------------------------- --------------------------*/
 
-.hidden-text {
-    visibility: hidden;
-}
 
+
+.visually-hidden{
+    word-spacing: nowrap;
+    clip-path: inset(100%);
+    overflow: hidden;
+}
 .middle-part-scnd {
     background-color: #FFF;
+    padding: 120px 0;
 }
 
 .text-scnd {
