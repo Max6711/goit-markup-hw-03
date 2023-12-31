@@ -134,11 +134,21 @@ img{
     clip-path: inset(100%);
     overflow: hidden;
 }
+
 .middle-part-scnd {
     background-color: #FFF;
     padding: 120px 0;
 }
 
+.middle-ul{
+display: flex;
+gap: 24px;
+margin-right: 24px;
+}
+
+.middle_li-one{
+    width: calc((100% - 72px) / 4);
+}
 .text-scnd {
     color: #2E2F42;
     font-family: 'Roboto', sans-serif;
@@ -147,6 +157,7 @@ img{
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.4px;
+    margin-bottom: 8px;
 }
 
 .list-frd {
