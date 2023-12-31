@@ -301,7 +301,7 @@ border-radius: 0px 0px 4px 4px;
     row-gap: 48px;
 }
 
-thrd_li{
+.thrd_li{
     width: calc((100% - 48px) / 3);
 }
 
